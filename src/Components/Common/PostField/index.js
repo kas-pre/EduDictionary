@@ -20,7 +20,7 @@ class PostField extends React.Component {
             class="form-control"
             rows="4"
             value={this.state.post}
-            placeholder="What's kicking?..."
+            placeholder="Share with us..."
             onChange={event => this.setState({ post: event.target.value })}
           />
         </div>

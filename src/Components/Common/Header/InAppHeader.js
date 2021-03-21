@@ -10,9 +10,11 @@ class InAppHeader extends Component {
     }
     return (
       <div class="in-app-header-container">
+        <Link to="/home">
         <div class="in-app-logo-container">
           <img src={logo} class="in-app-logo" alt="InAppLogo" />
         </div>
+        </Link>
         <div class="header-icons">
           <Link to={`/user/${this.props.uID}`}>
             <img
@@ -27,11 +29,11 @@ class InAppHeader extends Component {
                   this.props.currentUser.lName}
             </span>
           </Link>
-          <Link to="/home">
+          {/* <Link to="/home">
             <span class="text-icon major-padding">Home</span>
-          </Link>
+          </Link> */}
           <div class="float-right row">
-            <div class="icon-nav col-lg-2 col-md-2 col-sm-2">
+            {/* <div class="icon-nav col-lg-2 col-md-2 col-sm-2">
               <span class="icon-nav">
                 <i class="glyphicon glyphicon-user" />
               </span>
@@ -55,7 +57,7 @@ class InAppHeader extends Component {
               <span>
                 <i class="glyphicon glyphicon-triangle-bottom" />
               </span>
-            </div>
+            </div> */}
             <button
               class="btn btn-default btn-login"
               onClick={() => {

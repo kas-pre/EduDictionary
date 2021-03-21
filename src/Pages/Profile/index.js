@@ -64,18 +64,18 @@ class User extends Component {
               <div class="content">
                 <div class="w3-card app-bar">
                   <div class="float-right">
-                    <button class="btn btn-default reply-btn app-bar-button ">
+                    {/* <button class="btn btn-default reply-btn app-bar-button ">
                       Timeline
-                    </button>
+                    </button> */}
                     <button class="btn btn-default reply-btn app-bar-button ">
                       About
                     </button>
-                    <button class="btn btn-default reply-btn app-bar-button ">
+                    {/* <button class="btn btn-default reply-btn app-bar-button ">
                       Friends
-                    </button>
-                    <button class="btn btn-default reply-btn app-bar-button ">
+                    </button> */}
+                    {/* <button class="btn btn-default reply-btn app-bar-button ">
                       Photos
-                    </button>
+                    </button> */}
                     <button class="btn btn-default reply-btn app-bar-button ">
                       <span>
                         {' '}
